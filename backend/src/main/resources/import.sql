@@ -1,0 +1,1 @@
+INSERT INTO tb_psychologist(full_name, email, birthdate, phone, CRP, spacialization, state, city) VALUES ('Bob Junior Santos', 'bob@email.com', null, '+55119987651234', '54684611074', 'TCC', 'Sao Paulo', 'Jundiai');

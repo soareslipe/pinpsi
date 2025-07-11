@@ -26,4 +26,6 @@ public class Appointment {
 	private String notes;
 	private BigDecimal price;
 	
+	
+	
 }
