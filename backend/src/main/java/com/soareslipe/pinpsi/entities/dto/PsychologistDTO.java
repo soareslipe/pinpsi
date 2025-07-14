@@ -5,7 +5,7 @@ import java.sql.Date;
 import com.soareslipe.pinpsi.entities.Psychologist;
 
 public record PsychologistDTO(
-		Long id, String fullName, String email, Date birthdate, String cRP, String phone,
+		Long id, String fullName, String email, Date birthdate, String crp, String phone,
 		String spacialization, String state, String city) {
 	
     public PsychologistDTO(Psychologist entity) {

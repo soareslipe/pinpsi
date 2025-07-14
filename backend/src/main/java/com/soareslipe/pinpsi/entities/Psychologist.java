@@ -16,7 +16,7 @@ public class Psychologist {
 	String fullName;
 	String email;
 	Date birthdate;
-	String CRP;
+	String crp;
 	String phone;
 	String spacialization;
 	String state;
@@ -24,13 +24,13 @@ public class Psychologist {
 	
 	public Psychologist() {}
 	
-	public Psychologist(Long id, String fullName, String email, Date birthdate, String cRP, String phone,
+	public Psychologist(Long id, String fullName, String email, Date birthdate, String crp, String phone,
 			String spacialization, String state, String city) {
 		this.id = id;
 		this.fullName = fullName;
 		this.email = email;
 		this.birthdate = birthdate;
-		CRP = cRP;
+		this.crp = crp;
 		this.phone = phone;
 		this.spacialization = spacialization;
 		this.state = state;
@@ -70,11 +70,11 @@ public class Psychologist {
 	}
 
 	public String getCRP() {
-		return CRP;
+		return crp;
 	}
 
-	public void setCRP(String cRP) {
-		CRP = cRP;
+	public void setCRP(String crp) {
+		this.crp = crp;
 	}
 
 	public String getPhone() {
